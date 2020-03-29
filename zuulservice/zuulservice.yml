@@ -16,4 +16,6 @@
 zuul:
   ignored-services: "*"
   routes:
-    organizationservice: /organization/**
+    organizationservice: 
+    	path: /organization/**
+    	url: https://www.baidu.com/
