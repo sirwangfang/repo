@@ -14,7 +14,8 @@
 #licensingservice.ribbon.ReadTimeout: 2
 #signing.key: "345345fsdfsf5345"
 zuul:
+  ignored-services: "*"
   routes:
-    organizationservice:
-      path: /organization/**
-      url:  https://www.baidu.com/
+    organizationservice: 
+    	path: /organization/**
+    	url: https://www.baidu.com/
