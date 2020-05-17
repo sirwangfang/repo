@@ -1,4 +1,4 @@
-spring.jpa.database: "mysql"
+
 spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "true"
 spring.datasource.type: "com.alibaba.druid.pool.DruidDataSource"
@@ -16,5 +16,4 @@ spring.datasource.druid.web-stat-filter.exclusions: "*.js,*.gif,*.jpg,*.png,*.cs
 spring.datasource.druid.stat-view-servlet.login-username: "root"
 spring.datasource.druid.stat-view-servlet.login-password: "root"
 example.property: "I AM THE DEFAULT"
-spring.datasource.filters:  "stat","wall","log4j"
 spring.datasource.logSlowSql: "true"
