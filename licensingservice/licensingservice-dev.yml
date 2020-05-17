@@ -1,4 +1,4 @@
-spring.jpa.database: "MYSQL"
+spring.jpa.database: "mysql"
 spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "true"
 spring.datasource.type: "com.alibaba.druid.pool.DruidDataSource"
